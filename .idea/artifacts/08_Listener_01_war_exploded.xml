@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="08_Listener_01:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/08_Listener_01_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="08_Listener_01/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="08_Listener_01" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/08_Listener_01/web/lib/servlet-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/08_Listener_02_Online/web/lib/servlet-api.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
